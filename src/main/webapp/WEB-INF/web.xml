@@ -8,6 +8,10 @@
         <servlet-name>UserRegister</servlet-name>
         <servlet-class>org.java.servlets.UserRegister</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ControllerServlet</servlet-name>
+        <servlet-class>org.java.servlets.ControllerServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FirtsServlet</servlet-name>
         <url-pattern>/FirtsServlet</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>UserRegister</servlet-name>
         <url-pattern>/UserRegister</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControllerServlet</servlet-name>
+        <url-pattern>/ControllerServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
